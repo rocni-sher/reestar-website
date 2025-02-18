@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: "Monda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.section--one{
+    background-color: black;
+    text-align: center;
+    color: white;
+  
+    
+}
+.section--one li{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    color: darkgray;
+}
+.section--two{
+    text-align: center;
+    padding: 20px;
+}
+.section--two img{
+    width: 260px;
+    height:300px;
+
+
+}
+.section--two__img1{
+    display: inline-block;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.section--two__title,.section--two__discription{
+    text-align: center;
+}
+.section--two__button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.section--three{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    
+}
+.section--three__button{
+    background-color:yellow;
+    color:black;
+    width: 500px;
+    padding: 5px;
+    
+}
+
+.section--one li:hover,.section--two__button:hover,.section--three__button:hover{
+    cursor: pointer;
+    color: forestgreen;
+}
